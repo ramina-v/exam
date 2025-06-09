@@ -18,10 +18,10 @@ def arctg(x, nMax):
 
 	# погрешность округления каждого члена
     # нужно ли домножать на U здесь? вроде нет
-    second_error = abs(sum)
+    second_error = abs(x)
   
     # хранилище для суммы модулей членов ряда для вычисления ошибки суммирования
-    third_error_buffer = abs(sum)
+    third_error_buffer = abs(x)
 
     # числитель, в нём копятся степени х и знак
     numerator = x
